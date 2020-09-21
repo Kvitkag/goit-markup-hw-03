@@ -118,17 +118,10 @@ img {
 /* === HERO === */
 
 .hero {
-    width: 1600px;
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
     background: #2F303A;
-}
-
-.hero-box {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    padding: 200px 452px;
 }
 
 .hero-title {
@@ -157,8 +150,8 @@ img {
     /* identical to box height, or 187% */
 
     /* display: flex;
-    align-items: center;
-    text-align: center; */
+    align-items: center; */
+    text-align: center;
     letter-spacing: 0.06em;
 
     padding: 10px 20px;
@@ -299,30 +292,22 @@ img {
 
 /* === NAV === */
 
-.nav {
+.portfolio {
     padding-top: 94px;
-    padding-right: 495px;
-    padding-left: 495px;
-    padding-bottom: 34px;
+    padding-bottom: 64px;
 }
 
 .nav-list {
     display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .nav-list-item:not(:last-child) {
     margin-right: 8px;
 }
 
-.nav-list-item {
-    /* width: auto; */
-    height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    padding: 6px 22px;
-}
-
-.nav-list-link {
+.nav-list-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -331,16 +316,22 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;   
+    color: #212121; 
+    
+    height: 38px;
+    background: #F5F4FA;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus {
+.nav-list-button:hover,
+.nav-list-button:focus {
     color: var(--white-color);
 }
 
-.nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-button:hover,
+.nav-list-button:focus {
     background: #2196F3;
 }
 
@@ -363,7 +354,7 @@ img {
 } */
 
 .projects-list-item {
-    width: 370px; /*360???!!! */
+    width: 360px; /*360???!!! */
     height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
@@ -376,10 +367,10 @@ img {
     padding: 20px 24px;
 }
 
-.projects-list-img {
+/* .projects-list-img {
     width: 370px;
     height: 294px;
-}
+} */
 
 .projects-list-title {
     font-weight: 700;
@@ -410,7 +401,7 @@ img {
 /* === FOOTER === */
 
 .footer {
-    width: 1600px;
+    /* width: 1600px; */
     height: 252px;
     background: #2F303A;
     padding: 60px 0px;
